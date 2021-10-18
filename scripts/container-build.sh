@@ -1,0 +1,1 @@
+docker build . -t brisola/note-management-api

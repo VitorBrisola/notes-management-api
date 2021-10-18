@@ -1,0 +1,16 @@
+{
+  "name": "notes-management-api",
+  "version": "1.0.0",
+  "repository": "git@github.com:VitorBrisola/notes-management-api.git",
+  "author": "Vitor Brisola <vitoraugusto199@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sh scripts/container-start.sh",
+    "start:dev": "node src/server.js",
+    "stop": "sh scripts/container-stop.sh",
+    "build:container": "sh scripts/container-build.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
